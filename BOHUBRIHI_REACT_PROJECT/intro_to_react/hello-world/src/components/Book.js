@@ -14,7 +14,7 @@ const Book = (props) => {
             <table className="table">
             <thead>
                 <tr>
-                    
+                    {/* function passing with props */}
                     <th onClick={props.change} scope="col">BookName</th>
                     <th scope="col">Writer</th>
                 </tr>
