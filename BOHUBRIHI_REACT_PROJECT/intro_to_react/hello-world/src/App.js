@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import Person from './components/Person'
-
+import Book from "./components/Book";
 
 // this is function based component
 
@@ -22,16 +21,18 @@ import Person from './components/Person'
 // this is clas based component
 
 class App extends Component{
+    // lets see whats indie the component
   render(){
     return(
       <div className="App">
-      <h1 className="display-4">
-        This is the main Component
+      <h1 className="display-1">
+              Book Lists
       </h1>
-      <Person name = "Rahim" age="30" />
-      <Person name = "kerim" age="32" />
-      <Person name = "javed" age="33" />
-      <Person name = "Tanvir" age="34" />
+              <hr></hr>
+              <Book bookname="1984" writer="gefroy hinton" />
+              <Book bookname="The vinci code" writer="Dan brown" />
+              <Book bookname="harry potter" writer="j.K Rowling" />
+      
       
     </div>
     );
