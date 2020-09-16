@@ -1,1 +1,4 @@
-# COURSERA REACT REACT NATIVE AND VUEJS 5 PROJECTS
+1) Command For creating App:
+	=> npm install -g create-react-app
+	=> create-react-app hello-world
+2)
