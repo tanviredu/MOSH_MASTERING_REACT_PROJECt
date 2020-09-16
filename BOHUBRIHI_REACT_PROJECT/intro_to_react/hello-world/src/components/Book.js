@@ -7,6 +7,7 @@ const Book = (props) => {
     // state in the inner information
     // but state is used in the class
     // based component
+    // state is the peoperty ofa component
     return (
         <div className="Book">
         <div className="jumbotron">
