@@ -15,7 +15,7 @@ const Book = (props) => {
             <thead>
                 <tr>
                     
-                    <th scope="col">BookName</th>
+                    <th onClick={props.change} scope="col">BookName</th>
                     <th scope="col">Writer</th>
                 </tr>
             </thead>

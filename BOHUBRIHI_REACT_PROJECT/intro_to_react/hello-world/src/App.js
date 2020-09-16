@@ -57,7 +57,7 @@ class App extends Component{
       <button className="btn btn-danger" onClick={this.changeBookState}>change State</button>
               <hr></hr>
               <Book bookname={this.state.books[0].bookname} writer={this.state.books[0].writer} />
-              <Book bookname={this.state.books[1].bookname} writer={this.state.books[1].writer} />
+              <Book bookname={this.state.books[1].bookname} writer={this.state.books[1].writer}  change={this.changeBookState}/>
               
       
     </div>
